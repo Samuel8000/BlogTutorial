@@ -1,2 +1,2 @@
-# PortfolioSamuelKetels
-Portfolio Project with ASP.Net Core
+# Blog Tutorial
+Tutorial project on how to create a blog in ASP.NET Core with C#
