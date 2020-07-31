@@ -1,0 +1,18 @@
+﻿@model Post 
+
+<h1>This is the post view</h1>
+
+<div>
+    <form asp-controller="Post" asp-action="Edit" method="post">
+        <input type="hidden" asp-for="Id" value="1"/>
+        <div>
+            <label>Post Title</label>
+            <input asp-for="Title" />
+        </div>
+        <div>
+            <label>Body</label>
+            <input asp-for="Body"/>
+        </div>
+        <input type="submit" value="Save"/>
+    </form>
+</div>
